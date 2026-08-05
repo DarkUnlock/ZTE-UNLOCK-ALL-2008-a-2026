@@ -1,60 +1,135 @@
-# ENV
-
-```
-python3 -m venv .venv
-source ./.venv/bin/activate
-pip install -r requirements.txt
-```
-
-# zte_factroymode.py
-
-open telnet(use embed user/pass to 192.168.1.1 80):
-
-`python3 zte_factroymode.py telnet`
-
-or custom args
-
-`python3 zte_factroymode.py --user CUAdmin --pass CUAdmin --ip 192.168.1.1 --port 80 telnet open`
-
-```shell
-$ python3 ./zte_factroymode.py -h
-usage: zte_factroymode [-h] [--user USER [USER ...]] [--pass PASS [PASS ...]] [--ip IP] [--port PORT] {telnet,serial} ...
-
-options:
-  -h, --help            show this help message and exit
-  --user USER [USER ...], -u USER [USER ...]
-                        factorymode auth username (default: ['factorymode', 'CMCCAdmin', 'CUAdmin', 'telecomadmin', 'cqadmin', 'user', 'admin', 'cuadmin', 'lnadmin', 'useradmin'])
-  --pass PASS [PASS ...], -p PASS [PASS ...]
-                        factorymode auth password (default: ['nE%jA@5b', 'aDm8H%MdA', 'CUAdmin', 'nE7jA%5m', 'cqunicom', '1620@CTCC', '1620@CUcc', 'admintelecom', 'cuadmin', 'lnadmin'])
-  --ip IP               route ip (default: 192.168.1.1)
-  --port PORT           router http port (default: 80)
-
-subcommands:
-  valid subcommands
-
-  {telnet,serial}       supported commands
-    telnet              control telnet services on/off
-    serial              control /proc/serial on/off
-
-https://github.com/douniwan5788/zte_modem_tools
-```
-
-# zte_hardcode_dump.py
-
-decrypt /etc/hardcodefile
-
-`./zte_hardcode_dump.py test/hardcode test/hardcodefile/*`
-
-```shell
-$ python3 ./zte_hardcode_dump.py -h
-usage: zte_hardcode_dump [-h] hardcode hardcodefile [hardcodefile ...]
-
-positional arguments:
-  hardcode      the /etc/hardcode file which contains root key
-  hardcodefile  config files under /etc/hardcodefile
-
-options:
-  -h, --help    show this help message and exit
-
-https://github.com/douniwan5788/zte_modem_tools
-```
+F401
+F411
+F412
+F420
+F420V
+F421
+F422
+F425
+F427
+F428
+F429
+F430
+F431
+F432
+F435
+F436
+F438
+F439
+F450
+F460
+F460V
+F600
+F601
+F602
+F603
+F609
+F610
+F611
+F612
+F620
+F620G
+F620L
+F620T
+F621
+F621V
+F622
+F622G
+F622V
+F6221B
+F623
+F625
+F626
+F627
+F628
+F630
+F643
+F650
+F652
+F660
+F660A
+F660V2
+F660V3
+F660V5
+F6600
+F6600P
+F6600R
+F661
+F663
+F663N
+F663NV3
+F663NV9
+F664
+F6640
+F6645P
+F665
+F6650P
+F668
+F668V2
+F670
+F670E
+F670L
+F670LV2
+F670LV9
+F670M
+F670V
+F670Y
+F670Z
+F673
+F673A
+F677
+F679
+F680
+F680L
+F680V2
+F680V5
+F682
+F686
+F688
+F700
+F701
+F703
+F760
+F761
+F8648P
+F8748P
+F8748Q
+H298A
+H298N
+H3600
+H3601
+H3601P
+H3601PV
+H3602
+H3606
+H3606P
+H3606V
+H3609
+ZXHN F401
+ZXHN F412
+ZXHN F460
+ZXHN F600
+ZXHN F601
+ZXHN F609
+ZXHN F612
+ZXHN F620
+ZXHN F660
+ZXHN F6600
+ZXHN F663N
+ZXHN F6645P
+ZXHN F670
+ZXHN F670L
+ZXHN F670Y
+ZXHN F680
+ZXHN H298A
+ZXHN H298N
+ZXHN H3600
+ZXHN H3601
+ZXHN H3606
+LIVEBOXFIBRE
+ANTEL
+BITEL
+VIETTEL
+MEGACABLE
+PERU
+ZTE
