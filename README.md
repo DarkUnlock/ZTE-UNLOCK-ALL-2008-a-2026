@@ -1,3 +1,5 @@
+wa.me/5573982085302
+https://www.youtube.com/watch?v=Y_wxMBgXfUU
 MODELS SUPORTADOS E ADICIONADOS / SUPPORTED AND ADDED MODELS
 
 
